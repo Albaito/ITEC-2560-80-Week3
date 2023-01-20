@@ -1,0 +1,8 @@
+#test-only {
+    background-color: brown;
+    display: block;
+}
+
+#real-alert {
+    background-color: yellow;
+}

@@ -1,0 +1,40 @@
+<div class="jumbotron">
+    <h1>Integer Calculator </h1>
+    <p>By: Tramaine Stanford</p>
+</div>
+
+<Body>
+    <div>
+        <p>This program simply takes the first entered number and does whatever operation is inputted in the middle to the second number.
+            <br>It was one of the first programs I ever wrote.
+        </p>
+        <code>
+            #include <iostream>
+                using namespace std;
+                
+                int main(){
+                    int firstNumber, secondNumber, answer;
+                    string symbol;
+                    cout << "Please enter a calculation in this format (first Number) (sign) (second number)";
+                    cin >> firstNumber >> symbol >> secondNumber;
+                    if (symbol == "+"){
+                        answer = firstNumber + secondNumber;
+                    }
+                    else if (symbol == "-"){
+                        answer = firstNumber - secondNumber;
+                    }
+                    else if (symbol == "/"){
+                        answer = firstNumber / secondNumber;
+                    }
+                    else if (symbol == "*"){
+                        answer = firstNumber * secondNumber;
+                    }
+                    else{
+                        cout << "Invalid Input!";
+                    }
+                    cout << firstNumber << symbol << secondNumber << "=" << answer;
+                    return 0;
+                }   
+        </code>
+    </div>
+</Body>

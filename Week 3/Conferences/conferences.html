@@ -1,0 +1,24 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    <link rel="stylesheet" href="conferencesStyles.css" type="text/css">
+</head>
+
+<body>
+    <div>
+        <label for="name">Name:</label> <input type="text" id="name" name="Name" maxlength="70" required> <br>
+        <label for="password">Password:</label> <input type="password" id="password" name="Password" required> <br>
+        <label for="email">Email:</label> <input type="email" id="email" name="Email" required> <br>
+        <label for="t-shirt-size">T-Shirt Size:</label> <select id="t-shirt-size" name="T-Shirts" required>
+            <option>Extra-Small</option>
+            <option>Small</option>
+            <option>Medium</option>
+            <option>Large</option>
+            <option>Extra-Large</option>
+        </select> <BR>
+        <label for="birth-date">Birthdate:</label> <input type="date" id="birth-date" name="bDay" required> <br>
+        <label for="no">Recieve email updates?</label> <input name="email-updates" class id="yes" type="radio" required>Yes <input name="email-updates" id="no" type="radio" required>No <br>
+        <label for="sessions">Session:</label> <input type="radio" name="Sessions" id="Morning">Morning <input type="radio" name="Sessions" id="Evening">Evening <br>
+        <label for="special-requests">Special Requests:</label> <br> <textarea name="specialRequests" id="special-requests" rows="7" cols="70"></textarea> <br>
+        <input type="submit">
+    </div>
+</body>

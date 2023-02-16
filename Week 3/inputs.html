@@ -1,0 +1,120 @@
+<head>
+    <link href="https://fonts.googleapis.com/css?fanuky-Fure+Sabs" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coiny" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="feedback-styles.css" type="text/css">
+    
+
+    <meta charset="utf-8">
+    <meta name="viewport" contet="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+
+<body class="m-3">
+    <p> 
+        Enter your name:<input type="text"><br>
+        Enter your email: <input type="email"><br>
+        What's your lucky number? <input name="lucky_number" value="42" type="number"><br>
+        What's your birth date? <input type="date"><br>
+        What time is it? <input type="time"><br>
+        Select a number from this range: <input type="range"><br>
+        Choose your favorite color: <input type="color"><br>
+        What's the secret password? <input type="password"><br>
+        Search: <input type="search"><br>
+        Are you sure? <input type="checkbox" checked><br>
+    </p>
+
+    <p>
+        What's your favorite season?
+        <select>
+            <option>Summer</option>
+            <option>Fall</option>
+            <option>Winter</option>
+            <option>Spring</option>
+        </select>
+    </p>
+
+    <p>
+        <label for="joke">What's your favorite joke?</label>  
+        <br> <textarea name="joke" id="joke"></textarea>
+    
+        <br> please provide any additional information
+        <br> <textarea rows="12" cols="100"></textarea>
+    </p>
+    
+    <p>
+        Coke or Pepsi?
+        <input name="soda" type="radio" checked>Coke
+        <input name="soda" type="radio">Pepsi
+    </p>
+    
+    <p>
+        <label for="what-class">What class is this?</label>
+        <input id="what-class">
+    </p>
+    
+    <form>
+        <label for="username">Username:</label> <input id="username" name="username" required>
+        <br><label for="Password">Password:</label> <input id="password" name="password" type="password">
+        <br><input type="submit">
+    </form>
+    
+    <div class="jumbotron">
+        <h1>Please provide feedback. You may do so anonymously</h1>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <p>As one of our students, your thought, comments, and feedback are very importantto us.
+                <br>Please use this form to send your feedback.
+                <br>If you would like a response, please include your contact information.
+            </p>
+        </div>
+
+
+        <div class="col-sm-6">
+            <div id="feedback-form">
+                <form>
+                    <div></div>
+                    <label for="name">Name:</label> <input id="name" class="form-control" name="name">
+                    <br><label for="email">Email:</label> <input id="email" class="form-control" name="email">
+                    <br> <label for="comments">Comments:</label> <br> <textarea rows="2" class="form-control" cols="20" name="comments" required></textarea>
+                    <p>Are you a current student?</p>
+                    <div class="form-check">
+                        
+                        <input name="currentStudent" id="yes" class="form-check-input" type="radio" checked> <label for="yes">Yes</label> 
+                    </div>
+                    <div class="form-check">
+                        <input name="currentStudent" id="no" class="form-check-input" type="radio">
+                        <label for="no" class="form-check-label" >No</label>
+                    </div>
+                    
+                    <br> <input type="submit" class="btn btn-primary mt-2">
+                </form>
+            </div>
+        </div>
+    </div>
+   
+    
+
+    <div name="buttons">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+    </div>
+    
+    
+    
+    <div>
+        <h1>Rest of the page</h1>
+        <p>Blah blah blah</p>
+    </div>
+    
+</body>
+
